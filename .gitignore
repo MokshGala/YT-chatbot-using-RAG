@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment secrets — NEVER commit this file
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# AI Video Learning Assistant — local artefacts
+faiss_index/
+*.faiss
